@@ -1,25 +1,28 @@
 {
-    "name": "dioscouri/phalcon-admin",
+    "name": "fenghuilee/phalbee-admin",
+    "description": "Admin for Phalbee Apps",
+    "keywords": ["Phalcon","Phalbee","admin"],
+    "homepage": "https://github.com/fenghuilee/phalbee-admin",
     "type": "library",
-    "description": "Admin for Dsc Phalcon Apps",
-    "keywords": ["Phalcon","RAD"],
-    "homepage": "https://github.com/dioscouri/phalcon-admin",
-    "license": "GPL",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Rafael Diaz-Tushman",
-            "email": "rdiaztushman@dioscouri.com",
-            "homepage": "http://dioscouri.com",
-            "role": "Developer"
+            "name": "Fenghui Lee",
+            "email": "fenghuilee@gmail.com",
+            "homepage": "https://www.fenghuilee.com/",
+            "role": "Founder and Project Lead"
         }
-    ],    
+    ],
+    "support": {
+        "issues": "https://github.com/fenghuilee/phalbee-admin/issues?state=open",
+        "source": "https://github.com/fenghuilee/phalbee-admin"
+    },
     "require": {
-        "php": ">=5.4.0",
-        "ext-phalcon": ">=1.2.4,<2"
+        "php": ">=5.4.0"
     },
     "autoload": {
         "psr-4": {
-            "Dsc\\Admin\\": "src/"
+            "Phalbee\\Admin\\": "src/"
         }
     }    
 }
